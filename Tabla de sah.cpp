@@ -7,9 +7,6 @@ using namespace std;
 
 ifstream f("date1.in");
 
-
-
-
 int main()
 {
    int n,x;
@@ -18,15 +15,6 @@ int main()
    vector< int > aux1;
 
    int aux[n][n];
-
-   for(int i=0;i<n;i++)
-   {
-       for(int j=0;j<n;j++)
-       {
-           aux[i][j]=0;
-       }
-   }
-
 
    for(int i=0;i<n;i++)
    {
